@@ -1,5 +1,6 @@
 # Context-Aware Tiered Smart Waste Management System
 **A virtual IoT architecture for scalable urban waste collection**
+
 ---
 
 ## Overview
@@ -20,7 +21,10 @@ Urban waste collection is inefficient when trucks follow static schedules: some 
 ## System Architecture (End-to-End)
 **Bin Node (Edge) → Gateway (LoRa/Multi-hop) → Backend (MQTT/HTTP) → Dashboard + Routing Engine**
 
-![System Architecture](software/software_architecture/data_flow_diagram.jpeg)
+<p align="center">
+  <img src="software/software_architecture/data_flow_diagram.jpeg" width="600">
+</p>
+<p align="center"><em>Figure 1: End-to-end system architecture and data flow</em></p>
 
 ### Edge Node (Bin)
 Typical components (tier-dependent):
@@ -48,7 +52,10 @@ Typical components (tier-dependent):
 5. **Persist + compute:** backend updates bin state + triggers routing updates.
 6. **Visualize:** dashboard renders fill levels, alerts, health, and recommended collections.
 
-![Data Flow Diagram](software/software_architecture/data_flow_diagram.jpeg)
+<p align="center">
+  <img src="software/software_architecture/data_flow_diagram.jpeg" width="600">
+</p>
+<p align="center"><em>Figure 2: Sensor-to-backend data flow sequence</em></p>
 
 ---
 
@@ -81,14 +88,20 @@ Power optimization techniques (design-level):
 ## Hardware Architecture
 The internal hardware structure of a smart waste bin node is shown below.
 
-![Hardware Block Diagram](hardware/hardware_architecture/block_diagram.jpeg)
+<p align="center">
+  <img src="hardware/hardware_architecture/block_diagram.jpeg" width="500">
+</p>
+<p align="center"><em>Figure 3: Smart bin hardware block diagram</em></p>
 
 ---
 
 ## Pin Mapping
 The pin-level interface between the MCU and peripherals is illustrated below.
 
-![Bin Node Pin Mapping](hardware/pin_diagram/bin_node_pin_mapping.jpeg)
+<p align="center">
+  <img src="hardware/pin_diagram/bin_node_pin_mapping.jpeg" width="500">
+</p>
+<p align="center"><em>Figure 4: MCU pin mapping for sensors and peripherals</em></p>
 
 ---
 
@@ -121,9 +134,8 @@ WM-Aishwarya_Joshi-NMIT/
     │   └── block_diagram.jpeg
     │
     └── pin_diagram/
-        └── bin_node_pin_mapping.jpeg
-
-
+        └── bin_node_pin_mapping.jpeg 
+```
 ## Author Details
 
 **Name:** Aishwarya Joshi  
