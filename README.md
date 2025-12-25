@@ -52,11 +52,6 @@ Typical components (tier-dependent):
 5. **Persist + compute:** backend updates bin state + triggers routing updates.
 6. **Visualize:** dashboard renders fill levels, alerts, health, and recommended collections.
 
-<p align="center">
-  <img src="software/software_architecture/data_flow_diagram.jpeg" width="600">
-</p>
-<p align="center"><em>Figure 2: Sensor-to-backend data flow sequence</em></p>
-
 ---
 
 ## Route Optimization (Tier-Aware Priority)
@@ -91,7 +86,7 @@ The internal hardware structure of a smart waste bin node is shown below.
 <p align="center">
   <img src="hardware/hardware_architecture/block_diagram.jpeg" width="500">
 </p>
-<p align="center"><em>Figure 3: Smart bin hardware block diagram</em></p>
+<p align="center"><em>Figure 2: Smart bin hardware block diagram</em></p>
 
 ---
 
@@ -101,7 +96,7 @@ The pin-level interface between the MCU and peripherals is illustrated below.
 <p align="center">
   <img src="hardware/pin_diagram/bin_node_pin_mapping.jpeg" width="500">
 </p>
-<p align="center"><em>Figure 4: MCU pin mapping for sensors and peripherals</em></p>
+<p align="center"><em>Figure 3: MCU pin mapping for sensors and peripherals</em></p>
 
 ---
 
